@@ -75,10 +75,61 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CSS\Formatacao.css" />
+    <Content Include="Images\demo\150x150.gif" />
+    <Content Include="Images\demo\225x175.gif" />
+    <Content Include="Images\demo\225x225.gif" />
+    <Content Include="Images\demo\300x200.gif" />
+    <Content Include="Images\demo\300x430.gif" />
+    <Content Include="Images\demo\450x735.gif" />
+    <Content Include="Images\demo\48x48.gif" />
+    <Content Include="Images\demo\60x60.gif" />
+    <Content Include="Images\demo\960x360.gif" />
+    <Content Include="Images\demo\avatar.gif" />
+    <Content Include="Images\demo\imgl.gif" />
+    <Content Include="Images\demo\imgr.gif" />
+    <Content Include="Images\demo\index.html" />
+    <Content Include="Images\Germany-Flag-icon.png" />
+    <Content Include="Images\USA-Flag-icon.png" />
+    <Content Include="index.aspx" />
+    <Content Include="layout\index.html" />
+    <Content Include="layout\scripts\flexslider\bg_direction_nav.png" />
+    <Content Include="layout\scripts\flexslider\flexslider.css" />
+    <Content Include="layout\scripts\flexslider\index.html" />
+    <Content Include="layout\scripts\flexslider\jquery-flexslider.min.js" />
+    <Content Include="layout\scripts\index.html" />
+    <Content Include="layout\scripts\jquery-defaultvalue.js" />
+    <Content Include="layout\scripts\jquery-mobilemenu.min.js" />
+    <Content Include="layout\scripts\jquery.min.js" />
+    <Content Include="layout\styles\forms.css" />
+    <Content Include="layout\styles\framework.css" />
+    <Content Include="layout\styles\gallery.css" />
+    <Content Include="layout\styles\homepage.css" />
+    <Content Include="layout\styles\images\arrow.gif" />
+    <Content Include="layout\styles\images\black_file.gif" />
+    <Content Include="layout\styles\images\index.html" />
+    <Content Include="layout\styles\images\orange_file.gif" />
+    <Content Include="layout\styles\index.html" />
+    <Content Include="layout\styles\layout.css" />
+    <Content Include="layout\styles\mediaqueries.css" />
+    <Content Include="layout\styles\navi.css" />
+    <Content Include="layout\styles\portfolio.css" />
+    <Content Include="layout\styles\tables.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Admin\" />
+    <Folder Include="Scripts\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
